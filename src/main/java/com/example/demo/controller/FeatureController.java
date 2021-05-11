@@ -10,6 +10,6 @@ public class FeatureController {
 
     @GetMapping("one")
     public String feature() {
-        return "feature one, 修复release版本bug";
+        return "feature one, 修复release版本bug，有问题代码被提交了";
     }
 }
